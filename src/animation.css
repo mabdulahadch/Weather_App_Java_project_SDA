@@ -1,0 +1,31 @@
+.button {
+    -fx-background-color: #031c1e; /* Set background color to dark gray */
+    -fx-text-fill: rgb(243, 232, 232); /* Set text color to white */
+    -fx-background-radius: 5; /* Add rounded corners */
+    -fx-border-color: transparent; /* Remove border */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 0); /* Add drop shadow effect */
+    -fx-font-size: 14px; /* Set font size */
+}
+
+
+.button-gasesButton{
+    -fx-background-color: #00000000; /* Set background color to dark gray */
+    -fx-text-fill: rgb(0, 0, 0); /* Set text color to white */
+    -fx-background-radius: 50; /* Add rounded corners */
+    -fx-border-radius: 70; /* Add rounded corners */
+    -fx-border-color: transparent; /* Remove border */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 0); /* Add drop shadow effect */
+    -fx-font-size: 0px; /* Set font size */
+}
+
+
+.button:hover {
+     /*-fx-background-color: #40cbd89d; Darken the background color when hovered */
+    
+} 
+
+.text-field {
+    -fx-background-color: #f9f9f900; /* Set background color */
+    -fx-border-color: #ffffff00; /* Set border color */
+    -fx-text-fill: rgb(255, 255, 255);
+}

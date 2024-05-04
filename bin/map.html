@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Place Name</title>
+    <link rel="stylesheet" href="map.css">
+    <!-- Load Google Maps JavaScript API asynchronously -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq_uBuVNFEUfdm2VPXm2gzqYAoJYJH_zg&libraries=places&callback=initMap"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <!-- Add search box -->
+    <div id="search-box">
+        <input id="search" type="text" placeholder="Search for a place">
+    </div>
+    <!-- Display place name -->
+    <div id="place-info" class="white-box">
+        <p id="place-name"></p>
+    </div>
+    <!-- Display coordinates in top left -->
+    <div>
+        <div id="coordinates" class="top-left"></div>
+    </div>
+    <!-- Add Current Location button -->
+ <script src="map.js"></script>
+</body>
+</html>

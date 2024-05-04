@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\tower\\OneDrive\\Documents\\javafx-sdk-21.0.2\\lib\\javafx.base.jar",
+        "c:\\Users\\tower\\OneDrive\\Documents\\javafx-sdk-21.0.2\\lib\\javafx.controls.jar",
+        "c:\\Users\\tower\\OneDrive\\Documents\\javafx-sdk-21.0.2\\lib\\javafx.fxml.jar",
+        "c:\\Users\\tower\\OneDrive\\Documents\\javafx-sdk-21.0.2\\lib\\javafx.graphics.jar",
+        "c:\\Users\\tower\\OneDrive\\Documents\\javafx-sdk-21.0.2\\lib\\javafx.media.jar",
+        "c:\\Users\\tower\\OneDrive\\Documents\\javafx-sdk-21.0.2\\lib\\javafx.swing.jar",
+        "c:\\Users\\tower\\OneDrive\\Documents\\javafx-sdk-21.0.2\\lib\\javafx.web.jar",
+        "c:\\Users\\tower\\OneDrive\\Documents\\javafx-sdk-21.0.2\\lib\\javafx-swt.jar",
+        "c:\\Users\\tower\\OneDrive\\Desktop\\Fast-Nu\\json-simple-1.1.1.jar",
+        "c:\\Users\\tower\\OneDrive\\Desktop\\Fast-Nu\\mysql-connector-j-8.3.0\\mysql-connector-j-8.3.0.jar",
+        "c:\\Users\\tower\\Downloads\\java-json.jar",
+        "c:\\Users\\tower\\Downloads\\json-20240303.jar",
+        "c:\\Users\\tower\\Downloads\\org.json-chargebee-1.0.jar",
+        "src/Dependencies/mysql-connector-j-8.3.0.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

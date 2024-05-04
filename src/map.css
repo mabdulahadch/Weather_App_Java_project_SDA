@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#map {
+    height: 100%;
+    width: 100%;
+}
+.coordinates {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(250, 250, 250, 0);
+}
+
+.coordinates h2 {
+    margin-bottom: 5px;
+}
+
+.coordinates p {
+    margin: 3px 0;
+}
+
+#place-info {
+    position: absolute;
+    top: 10px;
+  right: 15px;
+    background-color: rgba(231, 225, 225, 0.8);
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+}
+.box {
+ color: white;   
+ position: absolute;
+ top: 10px;
+ left: 10px;
+}
+/* Add this CSS to style the Current Location button */
+.current-location-btn {
+    position: absolute;
+    bottom: 40px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    z-index: 1000;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.current-location-btn img {
+    width: 40px; 
+    height: 40px; 
+}
